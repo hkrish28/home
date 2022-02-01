@@ -64,7 +64,7 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Resume
+            CV
           </Nav.Link>
           {about.show && (
             <Nav.Link
