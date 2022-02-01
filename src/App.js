@@ -84,7 +84,7 @@ const App = () => {
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
-      <Footer>
+      {<Footer>
         {getInTouch.show && (
           <GetInTouch
             heading={getInTouch.heading}
@@ -92,7 +92,7 @@ const App = () => {
             email={getInTouch.email}
           />
         )}
-      </Footer>
+        </Footer>}
     </BrowserRouter>
   );
 };
