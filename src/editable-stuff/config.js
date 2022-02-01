@@ -49,7 +49,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/hari.png"),
   message:
-    "My name is Harikrishnan Unnikrishna. I’m a graduate of 2019 from National Institute Of Technology Calicut with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Harikrishnan Unnikrishna. I’m a graduate of 2019 from National Institute Of Technology Calicut with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like listening to music, reading books and playing videogames.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -111,7 +111,7 @@ const skills = {
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Communication", value: 70 },
+    { name: "Communication", value: 85 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 70 },
   ],

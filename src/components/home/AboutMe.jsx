@@ -26,11 +26,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     const instaQuery = "/?__a=1";
     try {
       const response = await axios.get(instaLink + link + instaQuery);
-      console.log("Photo obtained from " , link );
       setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
     } catch (error) {
       setShowPic(false);
-      console.log("Photo not obtained");
       console.error(error.message);
     }
   };
