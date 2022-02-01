@@ -12,9 +12,11 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
   React.useEffect(() => {
+    
     if (link && !pictureLinkRegex.test(link)) {
       handleRequest();
     } else {
+      console.log(showPic)
       setProfilePicUrl(link);
     }
   }, [link]);
@@ -24,9 +26,11 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     const instaQuery = "/?__a=1";
     try {
       const response = await axios.get(instaLink + link + instaQuery);
+      console.log("Photo obtained from " , link );
       setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
     } catch (error) {
       setShowPic(false);
+      console.log("Photo not obtained");
       console.error(error.message);
     }
   };
@@ -35,7 +39,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid">
         <div className="row">
-          <div className="col-5 d-none d-lg-block align-self-center">
+          <div className="col-5 d-lg-block align-self-center">
             {showPic && (
               <img
                 className="border border-secondary rounded-circle"
@@ -60,7 +64,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   role="button"
                   aria-label="Resume/CV"
                 >
-                  Resume
+                  Curriculum Vitae
                 </a>
               </p>
             )}

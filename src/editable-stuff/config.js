@@ -47,7 +47,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  profilePictureLink: "hkrish28",
+  imageLink: require("../editable-stuff/hari.png"),
   message:
     "My name is Harikrishnan Unnikrishna. I’m a graduate of 2019 from National Institute Of Technology Calicut with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
   resume: require("../editable-stuff/resume.pdf"),
