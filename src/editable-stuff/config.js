@@ -49,7 +49,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/hari.png"),
   message:
-    "My name is Harikrishnan Unnikrishna. I’m a graduate of 2019 from National Institute Of Technology Calicut with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like listening to music, reading books and playing videogames.",
+    "My name is Hari. I am currently doing my MS in Computer Science (expected graduation 2025) at the Khoury College of Computer Sciences at Northeastern University, Boston. Before I began my graduate studies, I was working as a Software Engineer for JP Morgan Chase & Co for four years. I got my Bachelor's degree in Computer Science & Engineering from National Institute Of Technology Calicut in 2019 when I graduated with 'Distinction'. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering and I am confident that my current grauduate degree program is setting me up nicely to achieve my full potential. In my free time I like listening to music, reading books and playing videogames.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -98,12 +98,12 @@ const skills = {
     { name: "Python", value: 60 },
     { name: "SQL", value: 80 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 75 },
+    { name: "C/C++", value: 60 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 85 },
     { name: "HTML/CSS", value: 65 },
-    { name: "C#", value: 55 },
-    { name: "Java", value: 70 }
+    { name: "C#", value: 15 },
+    { name: "Java", value: 85 }
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -131,19 +131,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer I',// Here Add Company Name
+      role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/jpmc.png'),
-      date: 'July 2019 – January 2021',
-    },
-    {
-      role: 'Software Engineer II',
-      companylogo: require('../assets/img/jpmc.png'),
-      date: 'January 2021 – January 2022',
+      date: 'July 2019 – January 2022',
     },
     {
       role: 'Associate',
       companylogo: require('../assets/img/jpmc.png'),
-      date: 'January 2022 - Present',
+      date: 'January 2022 - August 2023',
     }
   ]
 }
