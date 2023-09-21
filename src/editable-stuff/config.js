@@ -49,7 +49,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/hari.png"),
   message:
-    "My name is Hari. I am currently doing my MS in Computer Science (expected graduation 2025) at the Khoury College of Computer Sciences at Northeastern University, Boston. Before I began my graduate studies, I was working as a Software Engineer for JP Morgan Chase & Co for four years. I got my Bachelor's degree in Computer Science & Engineering from National Institute Of Technology Calicut in 2019 when I graduated with 'Distinction'. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering and I am confident that my current grauduate degree program is setting me up nicely to achieve my full potential. In my free time I like listening to music, reading books and playing videogames.",
+    "My name is Hari. I am currently doing my MS in Computer Science (expected graduation 2025) at the Khoury College of Computer Sciences at Northeastern University, Boston. Before I began my graduate studies, I was working as a Software Engineer for JP Morgan Chase & Co for four years. I got my Bachelor's degree in Computer Science & Engineering from National Institute Of Technology Calicut in 2019. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering and I am confident that my current grauduate degree program is setting me up nicely to achieve my full potential. In my free time I like listening to music, reading books and playing videogames.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
