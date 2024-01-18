@@ -49,7 +49,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/hari.png"),
   message:
-    "My name is Hari. I am currently doing my MS in Computer Science (expected graduation 2025) at the Khoury College of Computer Sciences at Northeastern University, Boston. Before I began my graduate studies, I was working as a Software Engineer for JP Morgan Chase & Co for four years. I got my Bachelor's degree in Computer Science & Engineering from National Institute Of Technology Calicut in 2019. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering and I am confident that my current grauduate degree program is setting me up nicely to achieve my full potential. In my free time I like listening to music, reading books and playing videogames.",
+    "I am currently doing MS in Computer Science (expected graduation 2025) at the Khoury College of Computer Sciences at Northeastern University, Boston. Before I began my graduate studies, I was working as a Software Engineer for JP Morgan Chase & Co for four years. I got my Bachelor's degree in Computer Science & Engineering from National Institute Of Technology Calicut in 2019. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering and I am confident that my current grauduate degree program is setting me up nicely to achieve my full potential. In my free time I like listening to music, reading books and playing videogames.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -60,10 +60,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Projects",
   gitHubUsername: "hkrish28", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ['DigiDine', 'AttendanceMgmtAI','image-manipulator'],
 };
 
 // Leadership SECTION
@@ -95,22 +95,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 60 },
+    { name: "Python", value: 70 },
     { name: "SQL", value: 80 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 60 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 85 },
+    { name: "React", value: 95 },
     { name: "HTML/CSS", value: 65 },
-    { name: "C#", value: 15 },
-    { name: "Java", value: 85 }
+    { name: "Typescript", value: 60 },
+    { name: "Java", value: 90 },
+    { name: "MySQL", value: 90 }
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
+    { name: "Goal-Oriented", value: 95 },
+    { name: "Collaboration", value: 95 },
     { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Adaptability", value: 95 },
+    { name: "Problem Solving", value: 90 },
     { name: "Communication", value: 85 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 70 },
